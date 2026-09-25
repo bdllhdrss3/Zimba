@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "sfx-chime",
+  "name": "Door chime",
+  "type": "audio",
+  "description": "Two-tone shop door chime.",
+  "tags": [
+    "sfx",
+    "door"
+  ],
+  "file": "chime.wav",
+  "duration": 1.15,
+  "provenance": "Original, synthesized with FFmpeg lavfi"
+}

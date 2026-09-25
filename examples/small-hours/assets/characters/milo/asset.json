@@ -1,0 +1,28 @@
+{
+  "schemaVersion":1,"id":"milo","name":"Milo","type":"character",
+  "description":"A mint-green, square-headed night clerk. Earnest, easily surprised.",
+  "tags":["clerk","mint","main-cast"],"width":180,"height":270,
+  "expressions":["neutral","happy","surprised"],"poses":["idle","wave"],
+  "anchors":{"hand":{"x":160,"y":170},"feet":{"x":90,"y":265}},
+  "shapes":[
+    {"type":"Ellipse","attrs":{"x":90,"y":265,"radiusX":80,"radiusY":10,"fill":"#223238","opacity":0.15}},
+    {"type":"Line","attrs":{"points":[60,220,55,256,35,256],"stroke":"#253a3c","strokeWidth":13,"lineCap":"round","lineJoin":"round"}},
+    {"type":"Line","attrs":{"points":[120,220,130,256,153,256],"stroke":"#253a3c","strokeWidth":13,"lineCap":"round","lineJoin":"round"}},
+    {"type":"Rect","attrs":{"x":38,"y":120,"width":112,"height":112,"cornerRadius":28,"fill":"#409f87","stroke":"#253a3c","strokeWidth":5}},
+    {"type":"Line","pose":"idle","attrs":{"points":[140,151,164,188,155,204],"stroke":"#253a3c","strokeWidth":12,"lineCap":"round"}},
+    {"type":"Line","pose":"wave","attrs":{"points":[142,150,190,118,204,62],"stroke":"#253a3c","strokeWidth":12,"lineCap":"round","lineJoin":"round"}},
+    {"type":"Circle","pose":"wave","attrs":{"x":205,"y":54,"radius":10,"fill":"#8ed8b6","stroke":"#253a3c","strokeWidth":4}},
+    {"type":"Line","attrs":{"points":[42,148,20,182,31,195],"stroke":"#253a3c","strokeWidth":12,"lineCap":"round"}},
+    {"type":"Rect","attrs":{"x":15,"y":10,"width":150,"height":136,"cornerRadius":35,"fill":"#8ed8b6","stroke":"#253a3c","strokeWidth":5}},
+    {"type":"Ellipse","attrs":{"x":64,"y":68,"radiusX":17,"radiusY":22,"fill":"#fffdf4"}},
+    {"type":"Ellipse","attrs":{"x":117,"y":68,"radiusX":17,"radiusY":22,"fill":"#fffdf4"}},
+    {"type":"Circle","attrs":{"x":68,"y":72,"radius":6,"fill":"#253a3c"}},
+    {"type":"Circle","attrs":{"x":121,"y":72,"radius":6,"fill":"#253a3c"}},
+    {"type":"Line","expression":"neutral","mouth":"closed","attrs":{"points":[75,111,107,111],"stroke":"#253a3c","strokeWidth":5,"lineCap":"round"}},
+    {"type":"Line","expression":"happy","mouth":"closed","attrs":{"points":[68,102,89,115,115,101],"tension":0.5,"stroke":"#253a3c","strokeWidth":5,"lineCap":"round"}},
+    {"type":"Ellipse","expression":"surprised","mouth":"closed","attrs":{"x":93,"y":111,"radiusX":12,"radiusY":17,"fill":"#253a3c"}},
+    {"type":"Ellipse","mouth":"open","attrs":{"x":93,"y":111,"radiusX":18,"radiusY":14,"fill":"#253a3c"}},
+    {"type":"Rect","attrs":{"x":62,"y":167,"width":62,"height":25,"cornerRadius":3,"fill":"#f9e487"}},
+    {"type":"Text","attrs":{"x":63,"y":172,"width":60,"text":"MILO","align":"center","fontFamily":"Verdana","fontSize":13,"fill":"#253a3c"}}
+  ]
+}

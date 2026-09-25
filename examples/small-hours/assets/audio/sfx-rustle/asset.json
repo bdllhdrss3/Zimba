@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "sfx-rustle",
+  "name": "Paper rustle",
+  "type": "audio",
+  "description": "Wrapping paper rustle.",
+  "tags": [
+    "sfx",
+    "parcel"
+  ],
+  "file": "rustle.wav",
+  "duration": 0.8,
+  "provenance": "Original, synthesized with FFmpeg lavfi"
+}

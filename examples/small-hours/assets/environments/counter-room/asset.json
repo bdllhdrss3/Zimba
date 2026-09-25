@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1, "id": "counter-room", "name": "Counter close-up", "type": "environment",
+  "description": "Tight shot behind the lobby counter: night window with moon, parcel shelf and desk lamp. Pair with the counter-front prop. Characters read best at scale 1.6-1.8.",
+  "tags": ["interior", "lobby", "close-up"], "width": 1280, "height": 720,
+  "anchors": {"counter-surface": {"x": 640, "y": 460}, "left-seat": {"x": 250, "y": 460}, "right-seat": {"x": 930, "y": 460}},
+  "shapes": [
+    {"type": "Rect", "attrs": {"width": 1280, "height": 720, "fill": "#e9eadf"}},
+    {"type": "Rect", "attrs": {"x": 470, "y": 60, "width": 340, "height": 250, "fill": "#2f4a5f", "stroke": "#426563", "strokeWidth": 8}},
+    {"type": "Circle", "attrs": {"x": 720, "y": 130, "radius": 34, "fill": "#fbf1c7"}},
+    {"type": "Circle", "attrs": {"x": 706, "y": 122, "radius": 34, "fill": "#2f4a5f"}},
+    {"type": "Circle", "attrs": {"x": 540, "y": 110, "radius": 3, "fill": "#fbf1c7"}},
+    {"type": "Circle", "attrs": {"x": 600, "y": 200, "radius": 2, "fill": "#fbf1c7"}},
+    {"type": "Circle", "attrs": {"x": 770, "y": 240, "radius": 3, "fill": "#fbf1c7"}},
+    {"type": "Line", "attrs": {"points": [640, 60, 640, 310], "stroke": "#426563", "strokeWidth": 6}},
+    {"type": "Line", "attrs": {"points": [470, 185, 810, 185], "stroke": "#426563", "strokeWidth": 6}},
+    {"type": "Rect", "attrs": {"x": 40, "y": 120, "width": 260, "height": 18, "fill": "#d7ba74", "stroke": "#426563", "strokeWidth": 3}},
+    {"type": "Rect", "attrs": {"x": 60, "y": 62, "width": 70, "height": 58, "fill": "#e9cd85", "stroke": "#426563", "strokeWidth": 3}},
+    {"type": "Rect", "attrs": {"x": 150, "y": 84, "width": 52, "height": 36, "fill": "#eddca2", "stroke": "#426563", "strokeWidth": 3}},
+    {"type": "Line", "attrs": {"points": [1090, 460, 1090, 250, 1030, 200], "stroke": "#426563", "strokeWidth": 8, "lineCap": "round", "lineJoin": "round"}},
+    {"type": "Path", "attrs": {"x": 975, "y": 160, "data": "M0 60 L40 0 L100 35 Z", "fill": "#f4cf6b", "stroke": "#426563", "strokeWidth": 4, "lineJoin": "round"}},
+    {"type": "Rect", "attrs": {"y": 440, "width": 1280, "height": 280, "fill": "#b9d2c8"}}
+  ]
+}

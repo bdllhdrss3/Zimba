@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "sfx-pop",
+  "name": "Pop",
+  "type": "audio",
+  "description": "Rising cartoon pop for reveals.",
+  "tags": [
+    "sfx",
+    "reveal"
+  ],
+  "file": "pop.wav",
+  "duration": 0.3,
+  "provenance": "Original, synthesized with FFmpeg lavfi"
+}

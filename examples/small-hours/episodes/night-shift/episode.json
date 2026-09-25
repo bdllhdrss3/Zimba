@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "night-shift",
+  "title": "Night Shift: The Okayest Gift",
+  "scenes": [
+    "scenes/01-closing-time.ts",
+    "scenes/02-delivery.ts",
+    "scenes/03-unboxing.ts",
+    "scenes/04-okayest.ts"
+  ]
+}

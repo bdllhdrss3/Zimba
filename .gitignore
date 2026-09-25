@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.zimba/
+renders/
+*.vsix
+extension/out/
+extension/node_modules/
+extension/.vscode-test/
+extension/runtime/

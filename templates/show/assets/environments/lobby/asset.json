@@ -1,0 +1,24 @@
+{
+  "schemaVersion":1,"id":"lobby","name":"Night-shift lobby","type":"environment",
+  "description":"A quiet mint-and-yellow lobby with a parcel shelf, wall clock and central red mat.",
+  "tags":["interior","lobby"],"width":1280,"height":720,
+  "anchors":{"entrance":{"x":70,"y":365},"desk":{"x":760,"y":365}},
+  "shapes":[
+    {"type":"Rect","attrs":{"width":1280,"height":720,"fill":"#e9eadf"}},
+    {"type":"Rect","attrs":{"y":500,"width":1280,"height":220,"fill":"#b9d2c8"}},
+    {"type":"Rect","attrs":{"y":490,"width":1280,"height":12,"fill":"#426563"}},
+    {"type":"Rect","attrs":{"x":76,"y":112,"width":250,"height":380,"cornerRadius":3,"fill":"#84b2aa","stroke":"#426563","strokeWidth":6}},
+    {"type":"Rect","attrs":{"x":105,"y":140,"width":193,"height":130,"fill":"#dae8c9","stroke":"#426563","strokeWidth":4}},
+    {"type":"Text","attrs":{"x":125,"y":190,"text":"PARCELS","fontFamily":"Verdana","fontSize":25,"fill":"#426563"}},
+    {"type":"Circle","attrs":{"x":289,"y":329,"radius":8,"fill":"#f4cf6b"}},
+    {"type":"Rect","attrs":{"x":820,"y":163,"width":358,"height":250,"fill":"#5f827b","stroke":"#426563","strokeWidth":6}},
+    {"type":"Line","attrs":{"points":[820,289,1178,289],"stroke":"#d7ba74","strokeWidth":12}},
+    {"type":"Rect","attrs":{"x":857,"y":210,"width":92,"height":70,"fill":"#e9cd85","stroke":"#426563","strokeWidth":3}},
+    {"type":"Rect","attrs":{"x":1015,"y":328,"width":110,"height":76,"fill":"#eddca2","stroke":"#426563","strokeWidth":3}},
+    {"type":"Line","attrs":{"points":[1069,328,1069,403],"stroke":"#ba9561","strokeWidth":11}},
+    {"type":"Rect","attrs":{"x":450,"y":580,"width":400,"height":72,"cornerRadius":25,"fill":"#c76370","stroke":"#994453","strokeWidth":4}},
+    {"type":"Circle","attrs":{"x":634,"y":161,"radius":56,"fill":"#fff9e1","stroke":"#426563","strokeWidth":6}},
+    {"type":"Line","attrs":{"points":[634,125,634,161,661,170],"stroke":"#426563","strokeWidth":5,"lineCap":"round"}},
+    {"type":"Text","attrs":{"x":494,"y":267,"width":290,"text":"SMALL HOURS","align":"center","fontFamily":"Verdana","fontSize":30,"fill":"#426563"}}
+  ]
+}

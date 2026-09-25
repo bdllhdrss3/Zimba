@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1, "id": "mug", "name": "Okayest mug", "type": "prop",
+  "description": "A chunky cream mug. Pose idle shows the plain side; pose text shows the WORLD'S OKAYEST CLERK slogan.",
+  "tags": ["gift", "mug", "kitchen"], "width": 110, "height": 110,
+  "poses": ["idle", "text"],
+  "shapes": [
+    {"type": "Ellipse", "attrs": {"x": 50, "y": 106, "radiusX": 44, "radiusY": 5, "fill": "#223238", "opacity": 0.18}},
+    {"type": "Path", "attrs": {"data": "M86 34 C112 34 112 80 86 80", "stroke": "#43313e", "strokeWidth": 11, "lineCap": "round"}},
+    {"type": "Path", "attrs": {"data": "M86 34 C104 34 104 80 86 80", "stroke": "#fbf3de", "strokeWidth": 5, "lineCap": "round"}},
+    {"type": "Rect", "attrs": {"x": 8, "y": 14, "width": 82, "height": 90, "cornerRadius": [6, 6, 16, 16], "fill": "#fbf3de", "stroke": "#43313e", "strokeWidth": 4}},
+    {"type": "Ellipse", "attrs": {"x": 49, "y": 15, "radiusX": 40, "radiusY": 6, "fill": "#7a4b35", "stroke": "#43313e", "strokeWidth": 3}},
+    {"type": "Path", "pose": "idle", "attrs": {"x": 49, "y": 58, "data": "M0 -16 L5 -5 L16 -4 L7 3 L10 15 L0 8 L-10 15 L-7 3 L-16 -4 L-5 -5 Z", "fill": "#ec7b89", "stroke": "#43313e", "strokeWidth": 2}},
+    {"type": "Text", "pose": "text", "attrs": {"x": 10, "y": 32, "width": 78, "text": "WORLD'S\nOKAYEST\nCLERK", "align": "center", "lineHeight": 1.25, "fontFamily": "Verdana", "fontStyle": "bold", "fontSize": 12, "fill": "#c24c5d"}}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "line-milo-okayest",
+  "name": "line-milo-okayest",
+  "type": "audio",
+  "description": "World's okayest clerk. I love it.",
+  "tags": [
+    "dialogue"
+  ],
+  "text": "World's okayest clerk. I love it.",
+  "file": "speech.wav",
+  "duration": 3.605,
+  "provenance": "Windows offline voice: Microsoft George"
+}

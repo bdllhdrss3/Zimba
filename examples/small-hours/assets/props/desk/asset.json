@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1, "id": "desk", "name": "Night desk", "type": "prop",
+  "description": "Lobby front desk. Place it AFTER the clerk actor so it hides his legs. Top surface is 20px below its y.",
+  "tags": ["lobby", "furniture", "foreground"], "width": 360, "height": 170,
+  "anchors": {"top-left": {"x": 0, "y": 20}, "bell": {"x": 300, "y": 0}},
+  "shapes": [
+    {"type": "Rect", "attrs": {"x": 0, "y": 20, "width": 360, "height": 22, "cornerRadius": 4, "fill": "#d9b877", "stroke": "#426563", "strokeWidth": 4}},
+    {"type": "Rect", "attrs": {"x": 14, "y": 42, "width": 332, "height": 128, "fill": "#6f9b92", "stroke": "#426563", "strokeWidth": 4}},
+    {"type": "Rect", "attrs": {"x": 110, "y": 72, "width": 140, "height": 44, "cornerRadius": 4, "fill": "#f4e4a8", "stroke": "#426563", "strokeWidth": 3}},
+    {"type": "Text", "attrs": {"x": 110, "y": 86, "width": 140, "text": "NIGHT DESK", "align": "center", "fontFamily": "Verdana", "fontSize": 16, "fill": "#426563"}},
+    {"type": "Ellipse", "attrs": {"x": 300, "y": 18, "radiusX": 20, "radiusY": 4, "fill": "#8a6d3b"}},
+    {"type": "Path", "attrs": {"x": 283, "y": 0, "data": "M0 16 Q17 -8 34 16 Z", "fill": "#e8c65a", "stroke": "#8a6d3b", "strokeWidth": 2}},
+    {"type": "Circle", "attrs": {"x": 300, "y": 0, "radius": 3, "fill": "#8a6d3b"}}
+  ]
+}

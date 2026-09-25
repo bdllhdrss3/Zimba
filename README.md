@@ -4,7 +4,7 @@ Code-first limited-animation cartoons, with a native VS Code review workspace.
 Write scenes in TypeScript, reuse show assets, preview immediately, and export MP4.
 Visual edits are proposals saved for the coding agent; they never silently rewrite scene code.
 
-**New here? Read [docs/GETTING_STARTED.md](docs/GETTING_STARTED.md)**: step-by-step setup, world-building and episode creation with copy-paste AI prompts. A finished 30-second example is `examples/small-hours`, episode `night-shift`.
+**New here? Follow [docs/HOW_TO.md](docs/HOW_TO.md)**: a plain step-by-step guide that says exactly what you do and what to ask the AI at each stage, from install to finished episode. [docs/GETTING_STARTED.md](docs/GETTING_STARTED.md) has the longer explanations. A finished 30-second example is `examples/small-hours`, episode `night-shift`.
 
 ## Start
 
@@ -51,6 +51,8 @@ Exports, contact sheets and model sheets live in the show's renders directory. N
 
 ## Documentation
 
+- [How to make a cartoon (step by step)](docs/HOW_TO.md)
+- [Story prompt template and example](docs/STORY_PROMPT.md)
 - [Getting started with AI](docs/GETTING_STARTED.md)
 - [AI workflow rules](docs/AI_GUIDE.md)
 - [Scene and animation API](docs/SCENE_API.md)

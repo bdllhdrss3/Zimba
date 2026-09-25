@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "line-milo-mug",
+  "name": "line-milo-mug",
+  "type": "audio",
+  "description": "It's a mug.",
+  "tags": [
+    "dialogue"
+  ],
+  "text": "It's a mug.",
+  "file": "speech.wav",
+  "duration": 1.4,
+  "provenance": "Windows offline voice: Microsoft George"
+}

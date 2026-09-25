@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "line-dot-read",
+  "name": "line-dot-read",
+  "type": "audio",
+  "description": "Read the side.",
+  "text": "Read the side.",
+  "file": "speech.wav",
+  "duration": 1.564308,
+  "provenance": "Windows installed voice: Microsoft Zira Desktop"
+}

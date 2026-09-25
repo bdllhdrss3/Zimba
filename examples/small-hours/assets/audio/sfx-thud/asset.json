@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "sfx-thud",
+  "name": "Soft thud",
+  "type": "audio",
+  "description": "Object set down on a counter.",
+  "tags": [
+    "sfx",
+    "impact"
+  ],
+  "file": "thud.wav",
+  "duration": 0.4,
+  "provenance": "Original, synthesized with FFmpeg lavfi"
+}

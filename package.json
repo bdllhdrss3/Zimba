@@ -1,0 +1,35 @@
+{
+  "name": "zimba",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {".": "./src/api.ts"},
+  "bin": {"zimba": "./dist/cli.mjs"},
+  "description": "Code-first limited-animation cartoons and visual feedback for AI agents",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "tsx --test tests/core.test.ts",
+    "test:integration": "tsx --test tests/integration.test.ts",
+    "test:episode": "npm run build && tsx --test tests/episode.test.ts",
+    "spike": "tsx tools/spike.ts",
+    "build": "tsx tools/build.ts",
+    "build:extension": "tsx tools/build.ts --extension && npm --prefix extension install && npm --prefix extension run compile",
+    "dev": "tsx src/cli.ts preview --show examples/small-hours --episode night-shift",
+    "render": "tsx src/cli.ts render --show examples/small-hours --episode night-shift"
+  },
+  "dependencies": {
+    "konva": "^10.0.0",
+    "gsap": "^3.13.0",
+    "zod": "^3.25.0",
+    "esbuild": "^0.25.0",
+    "chokidar": "^4.0.3",
+    "lucide": "^0.468.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0",
+    "playwright": "^1.51.0"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "line-dot-delivery",
+  "name": "line-dot-delivery",
+  "type": "audio",
+  "description": "Special delivery. Extremely special.",
+  "text": "Special delivery. Extremely special.",
+  "file": "speech.wav",
+  "duration": 3.948934,
+  "provenance": "Windows installed voice: Microsoft Zira Desktop"
+}

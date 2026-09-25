@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "music-night",
+  "name": "Night pad",
+  "type": "audio",
+  "description": "Quiet 8-second A-major pad for background under dialogue. Keep gain low.",
+  "tags": [
+    "music",
+    "ambient"
+  ],
+  "file": "pad.wav",
+  "duration": 8,
+  "provenance": "Original, synthesized with FFmpeg lavfi"
+}

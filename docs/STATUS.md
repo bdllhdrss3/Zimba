@@ -1,0 +1,11 @@
+# Zimba 0.1 Scope
+
+Implemented baseline: code-authored episodes; reusable JSON/Konva/SVG assets; GSAP seekable limited-frame movement; expression/pose swapping; camera transforms; prepared audio and simple cue-gated mouths; imported audio and Windows offline TTS (WinRT voices with System.Speech fallback); validation; headless MP4 export; browser review workspace; native VS Code host; live reload; revision-bound feedback, transform handles, timeline proposals, sketches, asset catalog, settings proposals; World view (true-scale lineup, model sheets, audio audition, asset feedback); agent self-review commands (stills, sheet, lineup, feedback, resolve); CLI/template and agent documentation.
+
+Tested end to end on a 30-second, 4-scene episode (tests/episode.test.ts): real-time playback with audio, 8fps pose holds with smooth camera, mouth cycling during speech, timeline seek and drag proposals, transform/sketch/settings/asset proposals, CLI resolve, live reload with stale-revision labels, mobile layout and a 30s 1280x720 24fps export with audible dialogue.
+
+This is an initial toolkit, not a finished CapCut replacement. Visual operations create agent-readable requests, not automatic code edits. No embedded AI provider, autonomous feedback worker, visual code round-trip compiler, paid TTS service, advanced drawing suite, skeletal animation, IK, audio waveform editor, cross-scene transitions or automatic render cache. Mouths open and close during speech cues; they don't follow individual words. Asset reference files are added through the filesystem. The studio timeline shows declared action/audio cues, not arbitrary program internals. The World lineup uses the first environment only.
+
+Every show runs trusted code. Stable IDs help review but automatic action IDs can change when an author inserts earlier actions; use explicit IDs for long-lived feedback targets. Final exports use the same player as preview. Check visual framing and listen to encoded audio before release.
+
+Validation/test results are reported in the implementation handoff; do not treat this feature list as proof of native-host testing or a rendering-speed guarantee. Export speed depends on resolution, episode length, scene complexity and installed browser/FFmpeg.

@@ -1,0 +1,26 @@
+{
+  "schemaVersion":1,"id":"dot","name":"Dot","type":"character",
+  "description":"A small coral courier with a dry sense of humor. Round silhouette, two antennae.",
+  "tags":["courier","coral","main-cast"],"width":180,"height":235,
+  "expressions":["neutral","happy","surprised"],"poses":["idle","wave"],
+  "anchors":{"hand":{"x":154,"y":140}},
+  "shapes":[
+    {"type":"Ellipse","attrs":{"x":90,"y":226,"radiusX":74,"radiusY":9,"fill":"#223238","opacity":0.15}},
+    {"type":"Line","attrs":{"points":[60,188,54,218,32,218],"stroke":"#43313e","strokeWidth":11,"lineCap":"round"}},
+    {"type":"Line","attrs":{"points":[116,188,127,218,150,218],"stroke":"#43313e","strokeWidth":11,"lineCap":"round"}},
+    {"type":"Line","attrs":{"points":[61,46,47,15,29,8],"stroke":"#43313e","strokeWidth":6,"lineCap":"round"}},
+    {"type":"Line","attrs":{"points":[118,46,133,15,151,8],"stroke":"#43313e","strokeWidth":6,"lineCap":"round"}},
+    {"type":"Ellipse","attrs":{"x":90,"y":119,"radiusX":77,"radiusY":85,"fill":"#ec7b89","stroke":"#43313e","strokeWidth":5}},
+    {"type":"Line","pose":"idle","attrs":{"points":[154,120,171,160,152,163],"stroke":"#43313e","strokeWidth":10,"lineCap":"round"}},
+    {"type":"Line","pose":"wave","attrs":{"points":[154,120,190,82,198,40],"stroke":"#43313e","strokeWidth":10,"lineCap":"round","lineJoin":"round"}},
+    {"type":"Circle","pose":"wave","attrs":{"x":199,"y":33,"radius":9,"fill":"#ec7b89","stroke":"#43313e","strokeWidth":4}},
+    {"type":"Ellipse","attrs":{"x":61,"y":100,"radiusX":17,"radiusY":22,"fill":"#fffdf4"}},
+    {"type":"Ellipse","attrs":{"x":111,"y":100,"radiusX":17,"radiusY":22,"fill":"#fffdf4"}},
+    {"type":"Circle","attrs":{"x":57,"y":104,"radius":6,"fill":"#43313e"}},
+    {"type":"Circle","attrs":{"x":107,"y":104,"radius":6,"fill":"#43313e"}},
+    {"type":"Line","expression":"neutral","mouth":"closed","attrs":{"points":[72,147,104,147],"stroke":"#43313e","strokeWidth":5,"lineCap":"round"}},
+    {"type":"Line","expression":"happy","mouth":"closed","attrs":{"points":[69,140,88,153,111,139],"tension":0.5,"stroke":"#43313e","strokeWidth":5,"lineCap":"round"}},
+    {"type":"Ellipse","expression":"surprised","mouth":"closed","attrs":{"x":90,"y":146,"radiusX":11,"radiusY":15,"fill":"#43313e"}},
+    {"type":"Ellipse","mouth":"open","attrs":{"x":90,"y":146,"radiusX":17,"radiusY":13,"fill":"#43313e"}}
+  ]
+}

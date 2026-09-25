@@ -1,0 +1,13 @@
+{
+  "name": "zimba-show",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "zimba preview",
+    "validate": "zimba validate",
+    "render": "zimba render"
+  },
+  "dependencies": {
+    "zimba": "file:../.."
+  }
+}

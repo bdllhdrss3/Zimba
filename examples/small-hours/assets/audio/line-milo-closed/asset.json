@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "line-milo-closed",
+  "name": "line-milo-closed",
+  "type": "audio",
+  "description": "Sorry, we're closed. Oh. It's you.",
+  "tags": [
+    "dialogue"
+  ],
+  "text": "Sorry, we're closed. Oh. It's you.",
+  "file": "speech.wav",
+  "duration": 4.405,
+  "provenance": "Windows offline voice: Microsoft George"
+}

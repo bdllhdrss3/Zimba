@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1, "id": "counter-front", "name": "Counter (close-up)", "type": "prop",
+  "description": "Foreground counter for close-up shots. Place at x 0, y 460 AFTER the characters so it hides their lower bodies. Surface line is at y 460.",
+  "tags": ["close-up", "foreground", "counter"], "width": 1280, "height": 260,
+  "anchors": {"surface-left": {"x": 0, "y": 0}, "surface-center": {"x": 640, "y": 0}},
+  "shapes": [
+    {"type": "Rect", "attrs": {"x": 0, "y": 0, "width": 1280, "height": 34, "fill": "#d9b877", "stroke": "#426563", "strokeWidth": 5}},
+    {"type": "Rect", "attrs": {"x": 0, "y": 34, "width": 1280, "height": 226, "fill": "#6f9b92"}},
+    {"type": "Line", "attrs": {"points": [0, 90, 1280, 90], "stroke": "#5e877f", "strokeWidth": 6}},
+    {"type": "Line", "attrs": {"points": [0, 170, 1280, 170], "stroke": "#5e877f", "strokeWidth": 6}}
+  ]
+}
